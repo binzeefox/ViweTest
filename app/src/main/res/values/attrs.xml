@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="TestView">
+        <attr name="gradient" format="boolean"/>
+        <attr name="end_text" format="string"/>
+        <attr name="showing_style">
+            <enum name="show_digital" value="1"/>
+            <enum name="show_percent" value="0"/>
+        </attr>
+        <attr name="arc_width" format="integer"/>
+        <attr name="max" format="integer"/>
+    </declare-styleable>
+</resources>
